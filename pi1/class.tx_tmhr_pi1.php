@@ -57,6 +57,7 @@ class tx_tmhr_pi1 extends tslib_pibase {
         } else {
             $content = $this->listView();
         }
+        $content = 'testing';
         return $this->pi_wrapInBaseClass($content);
     }
 
